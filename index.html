@@ -1,0 +1,321 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleStore</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/Logo.png" alt="" id="Logo" width="50" height="30"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#1">Products</a></li>
+              <li><a class="dropdown-item" href="#4">Catalog</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#3">Other</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#4">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#4">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#4">Combos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#4">Joggers</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ <div class="container ">
+  <div class="row">
+    <div class="col">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Banner.png"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card-body">
+                <h5 class="card-title">Summer 
+                  Value Pack</h5>
+                <p class="card-text">cool / colorful / comfy</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn2">Shop Now</a>
+                <!-- Модальное окно -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content"> 
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome Back</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+      <div class="modal-body">
+        Today you can buy clothes for the promotion
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Banner2.png"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card-body">
+                <h5 class="card-title">Summer 
+                  Value Pack</h5>
+                <p class="card-text">cool / colorful / comfy</p>
+                <a href="#" class="btn btn-primary" id="btn2">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Banner3.png"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card-body">
+                <h5 class="card-title">Summer 
+                  Value Pack</h5>
+                <p class="card-text">cool / colorful / comfy</p>
+                <a href="#" class="btn btn-primary" id="btn2">Shop Now</a>
+                 </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+ <section class="section2">
+  <div class="container">
+      <div class="section2__flex-container"> 
+          <div class="section2__text"> 
+              <h2 class="section2__h2" id="4">Fashion images of this year</h2>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">For women</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">For men</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">For children</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><img src="img/Foto1.jpg"  class="Foto1" id="Foto1" alt="..."></div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><img src="img/Foto2.jpg"  class="Foto2" id="Foto2" alt="..."></div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><img src="img/Foto3.jpg"  class="Foto3" id="Foto3" alt="..."></div>
+</div>
+
+<section class="section3">
+  <div class="container">
+      <div class="section3__flex-container"> 
+          <div class="section3__text"> 
+              <h3 class="section3__h3" id="1">Why should you choose us?</h3>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Stylish T-shirts
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Thanks to the variety of T-shirt styles, everyone can find a suitable option that will reflect their worldview and help create a unique image.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Product quality
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">High-quality products attract more customers and increase the level of consumer confidence.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Huge assortment
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">You can buy clothes for women, men, children, We have a huge assortment
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+            Stores around the world
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Our store is in completely different countries. It is possible to buy clothes anywhere in the world
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center" style="padding: 50px 32px;">
+  <div class="row">
+    <h id="hgl" style="color: #000000";>Leave your contact details</h>
+<form class="row g-3 was-validated" style="margin-top: 70px;">
+  <div class="col-md-4">
+    <label for="validationFirst name" class="form-label">First name</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationLast name" class="form-label">Last name</label>
+    <input type="text" class="form-control is-valid" id="validationServer02" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span style="background-color: #0d6efd;; color: white;" class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCity" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCountry" class="form-label">Country</label>
+    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <option selected disabled value="">Choose...</option>
+      <option>Russia</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label">Phone number</label>
+    <div class="input-group has-validation">
+      <span style="background-color: #0d6efd;; color: white;" class="input-group-text" id="inputGroupPrepend3">+7</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+    </div>
+  </div>
+  <div class="col-4" style="margin-top: 40px; width: 250px;">
+    <div class="form-check">
+      <input style=" border-color: #0d6efd;;" class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3" style="color:#0d6efd; ; line-height: 20px;">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button  class="btn btn-primary2" data-bs-toggle="modal" data-bs-target="#exampleModal2" id="btn3">Submit form</button>
+  </div>
+</form>
+  </div>
+</div>
+
+
+
+
+
+  <footer class="footer">
+     <div class="container">
+      <div class="row">
+        <div class="footer-col" id="3">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+  <div class="card5__cop">
+    <hr/><p id="p5">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+</div>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <script src="js/cod.js" ></script>
+ <script>const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)</script>  
+</body>
+</html>
