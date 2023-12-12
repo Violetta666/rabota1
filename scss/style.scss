@@ -467,6 +467,18 @@ ul{
 }
   }
   @media(max-width: 450px){
+	#Foto1 {
+		width: 69%;
+		padding: 10px;
+	}
+	#Foto2 {
+		width: 69%;
+		padding: 10px;
+	}
+	#Foto3 {
+		width: 69%;
+		padding: 10px;
+	}
 	.container {
         margin: 0 auto;
     	max-width: 451px;
@@ -499,6 +511,7 @@ ul{
     margin-bottom: 0rem;
 }
 .navbar-brand {
+	margin-left: 20px;
     display: flex;
     width: 11%;
     flex-direction: row-reverse;
@@ -519,6 +532,14 @@ h3, .h3 {
     font-family: Core Sans C;
     width: 89%;
 }
+.container-fluid {
+    --bs-gutter-x: 3.5rem;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    font-size: 19px;
+}
+  }
 .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0;
     font-size: 19px;
